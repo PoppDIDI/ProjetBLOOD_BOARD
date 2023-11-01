@@ -29,6 +29,7 @@
             <local:PasswordUserControl Grid.Row="3" Width="200" Password="{Binding Password, Mode=TwoWay}" />
 
             <Button Content="Connexion" Grid.Row="4" Width="100" Command="{Binding LoginCommand}" />
+            <Label Content="Label" HorizontalAlignment="Left" Margin="360,168,0,0" Grid.Row="4" VerticalAlignment="Top"/>
         </Grid>
     </Grid>
 </Window>
