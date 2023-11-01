@@ -17,7 +17,7 @@ namespace ProjetBLOOD_BOARD.Helpers
     {
         private static readonly string ConnectionString = "Data Source=DESKTOP-9TF6LVH\\SQLEXPRESS;Initial Catalog = BloodBoard;User Id=projet;Password=projet;";
 
-       /* public static void EnregistrerDonnees(string donnee1, string donnee2)
+        public static void EnregistrerDonnees(string donnee1, string donnee2)
         {
             using (SqlConnection connection = new SqlConnection(ConnectionString))
             {
@@ -31,9 +31,9 @@ namespace ProjetBLOOD_BOARD.Helpers
                     command.ExecuteNonQuery();
                 }
             }
-        }*/
+        }
 
-        /*public static string recuperationDonnee(string donnee1)
+        public static string recuperationDonnee(string donnee1)
         {
             using (SqlConnection connection = new SqlConnection(ConnectionString))
             {
@@ -46,7 +46,7 @@ namespace ProjetBLOOD_BOARD.Helpers
                     return (string)command.ExecuteScalar();
                 }
             }
-        }*/
+        }
 
         public static bool testeLOGIN(string nom, string mdp)
         {
@@ -91,7 +91,7 @@ namespace ProjetBLOOD_BOARD.Helpers
              return Donnees;
          }*/
 
-        /*public static void SupprimmeDonneeDeLaBaseDeDonnees(int id)
+        public static void SupprimmeDonneeDeLaBaseDeDonnees(int id)
         {
             using (SqlConnection connection = new SqlConnection(ConnectionString))
             {
@@ -103,6 +103,6 @@ namespace ProjetBLOOD_BOARD.Helpers
                     int i = command.ExecuteNonQuery();//retourne le nombre de ligne supprimmer dans notre cas.
                 }
             }
-        }*/
+        }
     }
 }
