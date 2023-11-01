@@ -8,6 +8,7 @@
         Title="AdministrateurMainWindow" Height="450" Width="800">
     <Grid>
         <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="324,193,0,0" VerticalAlignment="Top"/>
+        <Label Content="NOAH COIS NEWMAN" HorizontalAlignment="Left" Margin="303,102,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
