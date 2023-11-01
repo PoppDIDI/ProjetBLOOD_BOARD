@@ -53,7 +53,7 @@ namespace ProjetBLOOD_BOARD.Helpers
             using (SqlConnection connection = new SqlConnection(ConnectionString))
             {
                 connection.Open();
-                string query = "SELECT COUNT(*) FROM Utilisateurs WHERE nom = @nom AND mot_de_passe = @mot_de_passe;";
+                string query = "SELECT COUNT(*) FROM Utilisateurs WHERE pseudonyme = @nom AND mdp = @mot_de_passe;";
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
                     command.Parameters.AddWithValue("@nom", nom);
