@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="AdministrateurMainWindow" Height="450" Width="800">
     <Grid>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="378,0,0,0" VerticalAlignment="Center"/>
+        <Label Content="Test branche" HorizontalAlignment="Left" Margin="378,0,0,0" VerticalAlignment="Center"/>
     </Grid>
 </Window>
