@@ -15,7 +15,7 @@ namespace ProjetBLOOD_BOARD.Helpers
 {
     public static class DatabaseHelper
     {
-        private static readonly string ConnectionString = "Data Source=DESKTOP-9TF6LVH\\SQLEXPRESS;Initial Catalog = base de donne Blood_Board;User Id=projet;Password=projet;";
+        private static readonly string ConnectionString = "Data Source=DESKTOP-9TF6LVH\\SQLEXPRESS;Initial Catalog = BloodBoard;User Id=projet;Password=projet;";
 
        /* public static void EnregistrerDonnees(string donnee1, string donnee2)
         {
