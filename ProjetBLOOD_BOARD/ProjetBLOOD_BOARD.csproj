@@ -63,7 +63,6 @@
       <DependentUpon>LoginView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Helpers\DatabaseHelper.cs" />
-    <Compile Include="Helpers\RelayCommand.cs" />
     <Compile Include="Modules\ModuleAdministrateur\AdministrateurMainWindow.xaml.cs">
       <DependentUpon>AdministrateurMainWindow.xaml</DependentUpon>
     </Compile>
